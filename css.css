@@ -1,0 +1,27 @@
+.bar{
+    display: flex;
+    list-style: none;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.top{
+    background-color: aqua;
+    height:50px;
+    width:100%;
+}
+ul.bar a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.4s;
+    display: block;
+}
+ul.bar a:hover{
+    background-color: rgb(31, 172, 197);
+    padding-top: 8px;
+    padding-bottom: 12px;
+}
